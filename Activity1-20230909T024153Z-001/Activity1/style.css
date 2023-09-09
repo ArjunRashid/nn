@@ -1,0 +1,500 @@
+body {
+	background-image: url("s.jpg");
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+header h1{
+	color: white;
+	border: 5px solid white;
+	font-size: 20px;
+	padding: 5px 6px;
+	display: inline-block;
+	border-radius: 15px;
+	font-family: 'Times New Roman';
+}
+header {
+	background-color: rgb(39, 231, 206);
+	position: sticky;
+	text-align: center;
+	padding: 0px;
+	width: 100%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+nav {
+	background-color: rgb(39, 231, 206);
+	padding: 0px;
+	border-radius: 20px;
+	position: sticky;
+	top: 72px;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+nav ul {
+	white-space: nowrap;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+}
+nav li {
+	color: white;
+	width: 25%;
+	display: inline-block;
+	font-size: 25px;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Times New Roman';
+}
+h2{
+	font-size: 55px;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	width: 100%;
+	margin-left: 0px;
+}
+div {
+	white-space: nowrap;
+	width: 100%;
+}
+.menu{
+	background-color: rgb(39, 231, 206);
+	text-align: center;
+	width: 20%;
+	display: inline-block;
+	font-size: 30px;
+	font-family: Arial;
+	margin-top: 10px;
+	color: white;
+	padding: 0px;
+	margin-left: 5px;
+}	
+.menu strong{
+	border: 4px solid white;
+	padding: 5px 6px;
+	text-decoration: none;
+}
+div p {
+	padding: 5px;
+	width: 30%;
+}
+.div-1{
+	font:30px Courier;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 0px;
+	background-color:green;
+	width: 100%;
+	border-bottom: 1px solid white;
+	color:white;
+	height: 40px;
+}	
+.div-2{
+	font:25px Arial;
+	margin: auto;
+	margin-left: 0px;
+	background-color: lightgreen;
+	width: 100%;
+	border-bottom: 1px solid white;
+	color:black;
+	height: 30px;
+}	
+.div-4{
+	font: 30px Arial;
+	margin-top: 40px;
+	border-bottom: 0px solid white;
+	text-align: center;
+	width: 100%;
+	color:black;
+	height: 100px;
+	text-decoration: none;
+}	
+.div-5{
+	font:25px Arial;
+	margin-top:10px;
+	border-bottom: 0px solid white;
+	text-align: center;
+	width: 100%;
+	color:black;
+	height: 100px;
+}
+input{
+	width: 50%;
+	height:50px;  
+	border: 1px solid;
+	margin: 8px 0;
+	outline: none;
+	box-sizing: border-box;
+	padding: 8px;
+	font-size: 20px;
+	border-color: rgb(39, 231, 206);
+	border-radius: 15px;
+}
+button {
+    text-align: center;
+	padding: 2px;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 99px;
+	border-color:white;
+}
+.custom-button {
+	padding: 10px 10px;
+	background-color: rgb(39, 231, 206);
+	color: white;
+}
+.images1 img{
+	width: 50%;
+	height: 11em;
+}
+.images2 img {
+	width: 50%;
+	height: 11em;
+}
+.images3 img{
+	width: 50%;
+	height: 11em;
+}
+.images4 img{
+	width: 50%;
+	height: 11em;
+}
+.images5 img {
+	width: 50%;
+	height: 11em;
+}
+.images6 img{
+	width: 50%;
+	height: 11em;
+}
+form {
+	text-align: center;
+}
+label {
+	height: 10em;
+	display: inline-block;
+	width: 100%;
+	/* text-align: center; */
+}
+select option{
+	font-size: 15px;
+	border-radius: 10px;
+}
+#order {
+	text-align: center;
+	margin: 10px 0;
+	display: inline-block;	
+	position: relative;
+	width: 50%;
+	font-size: 20px;
+	padding: 8px;
+	max-width: 100%;
+	border-color: rgb(39, 231, 206);
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+figcaption {
+	font-size: 25px;
+	margin: 3px;
+}
+figcaption:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+figure {
+	white-space: nowrap;
+	display: inline-block;
+	text-align: center;
+	width: 90%;
+}
+nav li a:hover {
+	text-decoration: underline;
+	color: white;
+}
+figure:hover {
+	position: relative;
+	top: -4px;
+}
+@media screen and (max-width: 1200px) {
+	#order{
+		width: 50%;
+		height: 42px;
+	}	
+	.div-2{
+		font-size:30px;
+		width: 100%;
+	}
+	.menu{
+		font-size: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.div-1 {
+		font-size: 50px;
+		width: 100%;
+	}
+	h2 {
+		font-size: 70px;
+	}
+	header {
+		width: 100%;
+	}
+	nav {
+		width: 100%;
+	}
+	.none {
+		margin-bottom: 100px;
+	}
+	select option {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.div-1{
+		font-size: 20px;
+		width: 100%;
+	}	
+	.div-2{
+		font-size: 20px;
+		width: 100%;
+	}
+	.menu strong {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.menu p{
+		margin-top: 10px;
+		margin-bottom: 26px
+	}
+	nav{
+		width: 540px;
+	}
+	nav a{
+		font-size: 20px;		
+	}
+	nav ul {
+		margin-left: 0px;
+		padding: 10px -1px;
+	}
+	input {
+		left: 3px;
+	}
+	h2 {
+		font-size: 50px;
+		margin-left: 2px;
+	}
+	form {
+		margin-top: 20px;
+	}
+	.section {
+		margin: -2px
+	}
+	#order {
+		width: 270px;
+	}
+	select option {
+		font-size: 20px;
+	}
+	button {
+		margin-bottom: 250px
+	}
+	header {
+		width: 540px
+	}
+}
+@media screen and (max-width: 450px) {
+	header {
+		width: 100%;
+	}
+	.div-1{
+		font-size: 20px;
+		width: 100%;
+	}	
+	.div-2{
+		font-size:20px;
+		width: 100%;
+	}
+	.menu{
+		font-size:30px;
+		width: 100px;
+	}
+	nav {
+		width: 100%;
+	}
+	nav li {
+		font-size: 23px;
+	}
+	#order {
+		width: 225px;
+		height: 42px;
+		font-size: 19px;
+		max-width: 100%;
+		top: -23px;	
+	}
+	form{
+		margin-top: 15px;
+	}
+	input {
+		margin: 3px;
+	}
+	select option {
+		font-size: 20px;
+	}
+	button {
+		margin-bottom: 250px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.div-1{
+		font-size: 15px;
+		width: 100%;
+	}
+	h2{
+		font-size: 30px;
+		padding: 2px;
+		height: 10px;
+		margin-left: 2px;
+	}
+	#order {
+		width: 160px;
+		height: 46px;
+		font-size: 10px;
+		max-width: 100%;
+		top: -20px;
+		margin-top: 5px; 
+	}
+	select option {
+		font-size: 10px;
+	}
+	.div-2{
+		font-size:15px;
+	}
+	nav a{
+		font-size: 20px;
+		margin-left: 6px;
+	}
+	nav li {
+		font-size: 20px;
+	}
+	nav ul {
+		margin-left: -35px
+	}
+	.w-link {
+		margin-top: 40px;
+	}
+	h1 {
+		position: sticky;
+	}
+	.menu{
+		width: 30%;
+		padding: 0;
+	}
+	div p{
+		width: 40%;
+		padding: 0px;
+	}
+}
+@media screen and (max-width: 290px) {
+	.div-1{
+		font-size: 13px;
+		width: 100%;
+	}
+	.div-2{
+		font-size:13px;
+	}
+	.menu{
+		font-size:19px;
+	}
+	nav li {
+		font-size: 16px;
+	}
+	figure {
+		width: 90%;;
+		text-align: center;
+	}
+	.images1 img{
+		width: 70%;
+		height: 11em;
+	}
+	.images2 img {
+		width: 70%;
+		height: 11em;
+	}
+	.images3 img{
+		width: 70%;
+		height: 11em;
+	}
+	.images4 img{
+		width: 70%;
+		height: 11em;
+	}
+	.images5 img {
+		width: 70%;
+		height: 11em;
+	}
+	.images6 img{
+		width: 70%;
+		height: 11em;
+	}
+	h2 {
+		font-size: 22px
+	}
+	nav a {
+		font-size: 15px;
+		margin-left: 5px;
+		margin-right: -6px;
+	}
+	nav span {
+		margin-left: 5px
+	}
+	nav li {
+		margin-left: 2px
+	}
+	form input {
+		font-size: 15px;
+		margin-left: 3px
+	}
+	#order {
+		width: 145px;
+		height: 45px;
+		font-size: 10px;
+		max-width: 100%;
+		top: -20px;
+		margin-left: -1px;
+	}
+	nav {
+		width: 100%;
+	}
+	.webname {
+		font-size: 15px;
+	}
+	button{
+		font-size: 13px;
+	}
+	select option{
+		font-size: 8px;
+	}
+}
+form textarea{
+	top: 10px;
+	position: relative;
+	margin-top: 20px;
+}
+form {
+	text-align: center;
+}
+footer {
+	font-size: 20px;
+	background-color: rgb(39, 231, 206);
+	text-align: center;
+	margin-top: 250px;
+	padding: 5px;
+}
